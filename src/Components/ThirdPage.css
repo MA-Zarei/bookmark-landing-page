@@ -1,0 +1,64 @@
+#thtitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 6.5vmin;
+}
+#thdes{
+    text-align: center;
+    color: hsl(231, 4%, 39%);
+    font-size: 1.1rem;
+}
+.t{
+    text-align: center;
+}
+#pricing{
+    scroll-margin-top: 100px;
+}
+.cardd{
+    display: inline-block;
+    background-color: rgb(244, 244, 244);
+    width: 300px;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgb(126, 136, 195);
+    transition: all 0.5s;
+}
+.cardd:hover{
+    box-shadow: 0px 15px 25px rgb(110, 123, 199);
+}
+.cardd img:first-child{
+    margin-top: 50px;
+}
+.cardd p:first-of-type{
+    color: hsl(229, 31%, 21%);
+    margin-top: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.cardd p:last-of-type{
+    margin-top: -15px;
+    font-size: 1.1rem;
+    color: hsl(229, 8%, 60%);
+}
+.cardd img:last-of-type{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.cardd a{
+    text-decoration: none;
+    color:white;
+    border-style: solid;
+    background-color: rgb(76, 96, 209);
+    padding: 10px 15px 10px 15px;
+    border-color: rgb(76, 96, 209);
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.cardd a:hover{
+    color: rgb(76, 96, 209);
+    background-color: white;
+    border-color: rgb(76, 96, 209);
+}
+.devider{
+    width: 100%;
+}

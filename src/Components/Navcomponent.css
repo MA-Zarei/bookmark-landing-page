@@ -1,0 +1,18 @@
+.nav-link{
+    color: hsl(229, 31%, 21%) !important;
+}
+.nav-link.active,.nav-link:hover{
+    color: hsl(0, 94%, 66%) !important;
+}
+.logo{
+    width: 12rem;
+}
+.social{
+    filter: invert(100%);
+    width: 2rem;
+    filter: invert(64%) sepia(6%) saturate(411%) hue-rotate(193deg) brightness(88%) contrast(89%);
+}
+.social:active,.social:hover{
+    filter: none;
+    filter: invert(51%) sepia(9%) saturate(3941%) hue-rotate(315deg) brightness(99%) contrast(98%);
+}

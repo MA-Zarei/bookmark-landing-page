@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 1rem;
+}
+.hero{
+    width: 85%;
+    text-align: center;
+}
+.firsthero, .firsttext{
+    padding: 0px !important;
+    height: 80vmin !important;
+    flex-direction: column;
+}
+.firsttext h1{
+    color: hsl(229, 31%, 21%);
+    width: 80%;
+    font-weight: bold;
+    font-size: 8vmin;
+}
+.firsttext .mt-2{
+    direction: ltr;
+    width: 70%;
+    text-align: center;
+    font-size: 1.1rem;
+    color: hsl(229, 8%, 60%);
+}
+.blue{
+    z-index: -1;
+    position: relative;
+    bottom: 45vmin;
+    right: 0px;
+    background-color: rgb(76, 96, 209);
+    width: 70%;
+    height: 60%;
+    border-radius: 0px 0px 0px 20vmin;
+}
+.bttn{
+    width: 50%;
+}
+.chrome{
+    color: white;
+    border-style: solid;
+    border-color: rgb(76, 96, 209);
+    padding: 1.5vmin 0vmin;
+    border-radius: 10px;
+    background-color: rgb(76, 96, 209);
+    box-shadow: 0px 1px 5px rgb(76, 96, 209);
+    transition: all 0.3s;
+}
+.chrome:hover{
+    color: rgb(76, 96, 209);
+    background-color: white;
+}
+.firefox{
+    color: rgb(85, 85, 85);
+    border-style: solid;
+    border-color: rgb(235, 235, 235);
+    padding: 1.5vmin 0vmin;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgb(85, 85, 85);
+    background-color: rgb(235, 235, 235);
+    transition: all 0.3s;
+}
+.firefox:hover{
+    color: rgb(85, 85, 85);
+    background-color: white;
+    border-color: rgb(85, 85, 85);
+}
+.l,.l:hover{
+    text-decoration: none;
+    color: unset;
+}
+a:hover{
+    color: unset;
+}

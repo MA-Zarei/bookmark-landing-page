@@ -1,0 +1,30 @@
+#ftitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 6.5vmin;
+}
+#fdes{
+    text-align: center;
+    color: hsl(231, 4%, 39%);
+    font-size: 1.1rem;
+}
+.accordion-button:not(.collapsed){
+    color:hsl(0, 94%, 66%) !important;
+    background-color: rgb(191, 196, 255) !important;
+}
+.fa{
+    background-color: rgb(76, 96, 209);
+    width: fit-content !important;
+    border-style: solid;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+    border-color: rgb(76, 96, 209);
+    transition: all 0.5s;
+}
+.fa:hover{
+    background-color: white;
+    border-color: rgb(76, 96, 209);
+    box-shadow: 0px 5px 5px rgb(121, 133, 198) ;
+}

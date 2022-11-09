@@ -1,0 +1,75 @@
+#ff{
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    background-color: rgb(40, 65, 203);
+    color: white;
+}
+#ftext{
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+}
+#stext{
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 350px;
+}
+#sf{
+    text-align: center;
+}
+#etext{
+    border-radius: 5px;
+    border-color: transparent;
+    margin-right: 15px;
+    text-align: center;
+    height: 37px;
+}
+#etext:focus{
+    outline-color: hsl(0, 94%, 66%);
+
+}
+#ebtn{
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    border-color: hsl(0, 94%, 66%);
+    border-radius: 5px;
+    transition: all 0.5s;
+    padding: 5px 10px 5px 10px;
+}
+#ebtn:hover{
+    background-color: white;
+    color: hsl(0, 94%, 66%);
+}
+#fsf{
+    height: fit-content;
+    background-color: rgb(27, 27, 87);
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+#pic{
+    filter: grayscale(100%) invert(100%);
+}
+#fsf a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.2s;
+}
+#fsf a:hover{
+    color: hsl(0, 94%, 66%);
+}
+#soc1{
+    margin-right: 15px;
+}
+#soc1:hover,#soc2:hover{
+    transition: all 0.2s;
+    filter: invert(51%) sepia(9%) saturate(3941%) hue-rotate(315deg) brightness(99%) contrast(98%);
+}
